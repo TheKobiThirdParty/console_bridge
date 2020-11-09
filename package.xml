@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>console_bridge</name>
+  <version>1.0.1</version>
+  <description>
+     ROS-independent, pure CMake (i.e. non-catkin and non-rosbuild package)
+     that provides logging calls that mirror those found in rosconsole,
+     but for applications that are not necessarily using ROS.
+  </description>
+
+  <maintainer email="denis@thekobi.com">Denis Cavalli</maintainer>
+
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
